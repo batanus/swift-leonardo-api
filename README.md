@@ -1,0 +1,1 @@
+Fully generated Swift SDK based on official [OpenAPI specification](https://api-docs-nine-delta.vercel.app/cloud/openapi.json) using [swift-openapi-generator](https://github.com/apple/swift-openapi-generator)
