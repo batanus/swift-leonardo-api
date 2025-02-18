@@ -1,8 +1,6 @@
-import Foundation
 import OpenAPIRuntime
-import OpenAPIURLSession
 import HTTPTypes
-
+import Foundation
 
 final class AuthMiddleware: ClientMiddleware {
     private let apiKey: String
@@ -22,11 +20,3 @@ final class AuthMiddleware: ClientMiddleware {
         return try await next(request, body, baseURL)
     }
 }
-
-
-let apiKey = "test"
-let client = Client(
-    serverURL: try Servers.Server1.url(),
-    transport: URLSessionTransport(),
-    middlewares: [AuthMiddleware(apiKey: apiKey)]
-)
