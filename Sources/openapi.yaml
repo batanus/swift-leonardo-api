@@ -4441,6 +4441,18 @@
                             "type": "boolean",
                             "description": "Enable to use SDXL Lightning model."
                           },
+                          "isFluxDev": {
+                            "nullable": true,
+                            "title": "Boolean",
+                            "type": "boolean",
+                            "description": "Enable to use Flux Dev model."
+                          },
+                          "isFluxSchnell": {
+                            "nullable": true,
+                            "title": "Boolean",
+                            "type": "boolean",
+                            "description": "Enable to use Flux Schnell model."
+                          },
                           "ultra": {
                             "nullable": true,
                             "title": "Boolean",
